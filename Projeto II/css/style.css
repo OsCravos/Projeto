@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+body{
+    background-color: #ffff94;
+}
+
+/*===================================================HEADER=====================================================================*/
+header{
+    position: static;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #0f0c0c;
+}
+
+#titulo{
+    float: left;
+    width: 300px;
+    font-family: Monotype Corsiva;
+    margin: 10px;
+    font-size: 35px;
+}
+
+#Pesquisa{
+    padding: 15px;
+    width: 300px;
+    float: right;
+}
+
+.conteudo_h{
+    float: right;
+    padding: 15px;
+    margin: 0px;
+}
+
+/*===================================================CONTEÚDO===============================================================*/
+
+.conteudo{
+    float: left;
+    margin: 70px 168px;
+}
+
+.alinhamento{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    text-align: center;
+}
+
+#produto{
+    margin: 10px;
+    border-style: groove;
+    border-color: black;
+    width: 300px;
+    height: 400px;
+    background-color: #f5f5f5;
+}
+
+/*===================================================FOOTER============================================================*/
+footer{
+    display:flex;
+    flex-direction: row;
+    position: static;
+    height: 170px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #0f0c0c;
+}
+
+footer h2{
+    font-weight: bold;
+}
+
+.c_footer{
+    margin:15px 9%;
+    padding: 15px;
+    text-align: center;
+}
